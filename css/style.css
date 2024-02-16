@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+}
+
+/*Colores*/
+.azul {
+    color: #004cdf;
+}
+
+.morado {
+    color: #8b00f7;
+}
+
+.magenta {
+    color: #f101aa;
+}
+
+.rojo {
+    color: #de0d53;
+}
+
+.naranjo {
+    color: #ff7900;
+}
+
+.amarillo {
+    color: #ffd712;
+}
+
+.degradado {
+    color: var(--Degradado---Principal, linear-gradient(83deg, #005D9C 1.05%, #C701CA 31.54%, #F101AA 59.09%, #FF9105 99.42%));
+}
+
+.BgDegradado {
+    background-color: var(--Degradado---Principal, linear-gradient(83deg, #005D9C 1.05%, #C701CA 31.54%, #F101AA 59.09%, #FF9105 99.42%));
+}
+
+/*header*/
+.header {
+    width: 100%;
+    background-color: #000;
+}
+
+.header--logo {
+    width: 90px;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: deeppink;
+    font-size: 14px;
+}
+
+/*Fin header*/
+
+/*Banner principal*/
+.main {
+    background-image: url(../resources/img/banner-swellmedia.jpg);
+    width: 100%;
+    padding: 0;
+
+}
+
+.main__banner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    grid-template-areas:
+        ". . main--imgBanner main--imgBanner"
+        ". . main--imgBanner main--imgBanner"
+        "h1 h1 main--imgBanner main--imgBanner"
+        "main--bajada main--bajada main--imgBanner main--imgBanner"
+        ". . main--imgBanner main--imgBanner";
+}
+
+h1 {
+    grid-area: h1;
+}
+
+.main--bajada {
+    grid-area: main--bajada;
+}
+
+.main--imgBanner {
+    grid-area: main--imgBanner;
+}
+
+/*Fin Banner principal*/
+
+
+.nosotros section {
+    display: inline-block;
+}
+
+/*Home */
+.servicios {
+    background-color: lightgray;
+}
+
+.servicios ul li {
+    width: 340px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px;
+    padding: 20px;
+
+}
+
+.servicios ul li img {
+    width: 340px;
+
+}
+
+.servicios ul li a {
+    background: var(--Degradado---Principal, linear-gradient(83deg, #005D9C 1.05%, #C701CA 31.54%, #F101AA 59.09%, #FF9105 99.42%));
+    color: #fff;
+    width: 180px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.servicios ul li a:hover {
+    background: #F101AA;
+}
+
+.casos {
+    width: 1440px;
+    height: 720px;
+    background-image: url(../resources/img/cliente.png);
+}
+
+.casos .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1200px;
+    align-self: stretch;
+
+}
+
+.certificaciones {
+    background-color: lightgray;
+}
+
+.certificaciones ul li {
+    width: 200px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px;
+    padding: 20px;
+
+}
+/*Fin Home */
+
+/*Servicios */
+
+.beneficios-servicio ul li {
+    width: 240px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px;
+    padding: 20px;
+}
+
+.beneficios-servicio ul li img {
+    width: 240px;
+
+}
+
+.resultados-aplicados {
+    width: 1440px;
+    height: 720px;
+    background-image: url(../resources/img/cliente.png);
+}
+
+.mas-servicio ul li {
+    width: 340px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px;
+    padding: 20px;
+
+}
+
+.mas-servicio ul li img {
+    width: 340px;
+
+}
+
+.contacto-lider {
+    background-color: lightsteelblue;
+    border-radius: 20px;
+    ;
+}
+
+.contacto-lider section {
+    display: inline-block;
+}
+
+.contacto-lider .nombre-lider {}
+
+.contacto-lider .formulario-lider {}
+
+.otros-servicios ul li {
+    width: 240px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 12px;
+    padding: 20px;
+
+}
+
+.otros-servicios ul li img {
+    width: 240px;
+}
+
+/*Fin Servicios */
+
+/*Footer*/
+
+footer section {
+    display: inline-block;
+}
+
+footer .newsletter {}
+
+footer .rrss ul li {
+
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+/*Fin Footer*/
