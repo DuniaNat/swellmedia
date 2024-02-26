@@ -67,7 +67,6 @@ p {
 .header {
     width: 100%;
     background-color: #000;
-    position: fixed;
 }
 
 .header--logo {
@@ -82,26 +81,6 @@ nav ul li a {
     text-decoration: none;
     color: deeppink;
     font-size: 14px;
-}
-
-.navbar-nav {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-}
-
-.navbar-nav .nav-item {
-    text-align: center;
-}
-
-.navbar-nav .nav-item:hover .nav-link {
-    color: #fff;
-    background:var(--Degradado---Principal, linear-gradient(83deg, #005D9C 1.05%, #C701CA 31.54%, #F101AA 59.09%, #FF9105 99.42%));
-}
-
-.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-    color: #fff;
-    background: var(--Degradado---Principal, linear-gradient(83deg, #005D9C 1.05%, #C701CA 31.54%, #F101AA 59.09%, #FF9105 99.42%));
 }
 
 /*Fin header*/
